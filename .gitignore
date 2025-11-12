@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dependencies
+node_modules/
+Backers/node_modules/
+
+# build output
+dist/
+.vite/
+
+# environment files (secrets)
+.env
+Backers/.env
+
+# misc
+.DS_Store
+*.log
